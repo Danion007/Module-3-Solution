@@ -41,8 +41,10 @@
     overflow: auto;
     width: 96%
   }
-  .navbar-brand {
-    margin-top: 15px;
+  .navbar-default .navbr-brand:hover,
+  .navbar-default .navbr-brand:focus {
+    color: #5e5e5e;
+    background-color: transparent;
   }
 }
 @media(min-width: 768px) and (max-width: 991px) {
@@ -66,8 +68,10 @@
     overflow: auto;
     width: 95%
   }
-  .navbar-brand {
-    margin-top: 15px;
+  .navbar-default .navbr-brand:hover,
+  .navbar-default .navbr-brand:focus {
+    color: #5e5e5e;
+    background-color: transparent;
   }
 }
 @media (max-width: 767px) {
